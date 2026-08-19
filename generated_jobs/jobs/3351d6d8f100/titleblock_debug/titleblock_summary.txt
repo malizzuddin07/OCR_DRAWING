@@ -1,0 +1,7 @@
+status: ok
+crop_method: fixed_bottom_right_medium
+crop_source: position
+crop_confidence: 0.6581
+ocr_confidence: 0.9231001307944888
+ocr_variant: upscale_2x_original
+crop_box: (2386, 2016, 4678, 3306)

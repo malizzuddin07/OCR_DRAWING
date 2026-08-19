@@ -1,0 +1,84 @@
+6.USE NAMEKAWA HEIGH PLATE(A5052-H112)
+MATERIAL OR
+）
+EQUIVALENT
+NO BUFFING ALLOWED
+7.INTERPRET DRAWING, DIMENSION, TOLERANCE AND
+ON THESE SURFACE
+SYMBOL PER JIS.
+3
+2
+A5052
+1
+0.1
+7°V-卜，LTP7，了-A，下面，(5)
+予
+常用予備
+判別
+常
+用
+質量
+個／台
+部
+品
+名
+番号
+材
+料
+要
+小区分コード
+製作数
+kg
+記号
+承
+係員
+認
+設計
+図名
+試圧
+BDK2
+|
+水·空気·油特殊
+鈴木
+小林
+賢一
+kgf/cm²}
+:
+11.07.15
+7°ν-卜，LTP7，了-ム，下面，(5)
+MPa
+調査
+製図
+0
+3
+I
+尺度
+PLATE, LTP7, ARM,
+1, UNDER,
+(5)
+阿部
+大区分
+コード
+11.07.15
+機名
+RE V.
+製番
+図番
+F-REX300X
+W3-C111272601-00
+木型番号
+控材検工
+工事CAD
+係
+承認
+C-3010-036-3200
+d
+C
+:)
+:
+T
+c:
+|
+T
+|
+T

@@ -1,0 +1,39 @@
+STATUS: APPROVED GOLDEN TEST 3
+
+Approval ID: 15aa06aa2bbe4163
+Approved job: 94413779e086
+Approved date: 2026-07-20
+Approved characteristics: 104
+Main balloons: 75
+Valid saved crops: 104
+Training status: NOT STARTED
+
+Verified SHA-256:
+- Source PDF: 809F7F72E31AB3E0B1FAE54AA4E5E05AB66D967ADD5428355FF5A42854410D94
+- Expected ballooned PDF: CADD4058F91B132567368FBF1A1B0E0374E02DA0A477385A5A14D1B25C55121E
+- Expected FA Excel: 95C8F39CDCAC3EE5F012434B2AAC3E8627DEDF1F35B748C2EA88A5D08268524D
+
+Drawing: W3-C111262801-2A.pdf
+Drawing number: W3-C111262801-2A
+Part number: C-3100-004-8620
+Revision: 2A
+Material: A5052
+Part name: ARM, LTP3
+
+Required checks:
+- Exactly 104 Excel characteristics and 75 main balloons.
+- Main balloon numbers are sequential from 1 through 75.
+- No missing or duplicate main balloon numbers.
+- No overlapping balloon circles or characteristic frames.
+- Balloon 2 contains the complete 198.5 dimension.
+- Both adjacent 9.8 dimensions are separate characteristics.
+- The recovered vertical 6 follows the two vertical 16 dimensions as balloon 44.
+- The nearby 66 dimension is balloon 47 and must not be read as 99.
+- The complete 191.5 dimension is present and must not be read as 91.5.
+- Vertical Ra 6.3 frames have enough space around the complete text.
+- English drill and depth callouts are used without duplicate Japanese note text.
+- GD&T frames, radii, surface finishes, depths, tolerances, and title-block fields remain correct.
+- Excel customer remarks are blank.
+
+This checklist and the approved PDF/Excel form Golden Drawing Test 3.
+Future OCR, parser, detector, and ballooning changes must not make this drawing worse.

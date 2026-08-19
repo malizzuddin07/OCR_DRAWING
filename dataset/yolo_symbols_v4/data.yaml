@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['basic_dimension', 'datum_symbol', 'dimension_chamfer_symbol', 'dimension_degree_symbol', 'dimension_diameter_symbol', 'dimension_metric_symbol', 'dimension_radius_symbol', 'dimension_thickness_symbol', 'gdt_frame_symbol', 'gdt_parallelism_symbol', 'gdt_perpendicularity_symbol', 'revision_triangle_symbol', 'surface_finish_symbol']
+
+roboflow:
+  workspace: krafo
+  project: engineering-symbol-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/krafo/engineering-symbol-detection/dataset/5

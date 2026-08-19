@@ -1,0 +1,19 @@
+{
+  "source_image": "FAB-C-3020-175-6400_W3-C171246401-00.png",
+  "image_size": {
+    "width": 4678,
+    "height": 3308
+  },
+  "regions": {
+    "title_block": {
+      "label": "title_block",
+      "x1": 3126,
+      "y1": 2444,
+      "x2": 4602,
+      "y2": 3227,
+      "confidence": 0.9836,
+      "method": "yolo_title_block"
+    }
+  },
+  "candidate_count": 0
+}

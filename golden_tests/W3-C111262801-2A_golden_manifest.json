@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "approved",
+  "golden_test_number": 3,
+  "approval_id": "15aa06aa2bbe4163",
+  "job_id": "94413779e086",
+  "drawing_number": "W3-C111262801-2A",
+  "part_number": "C-3100-004-8620",
+  "revision": "2A",
+  "approved_characteristics": 104,
+  "main_balloons": 75,
+  "valid_crops": 104,
+  "source_pdf": {
+    "path": "drawings/W3-C111262801-2A.pdf",
+    "sha256": "809F7F72E31AB3E0B1FAE54AA4E5E05AB66D967ADD5428355FF5A42854410D94"
+  },
+  "expected_pdf": {
+    "path": "expected_pdf/W3-C111262801-2A_expected.pdf",
+    "sha256": "CADD4058F91B132567368FBF1A1B0E0374E02DA0A477385A5A14D1B25C55121E"
+  },
+  "expected_excel": {
+    "path": "expected_excel/W3-C111262801-2A_expected.xlsx",
+    "sha256": "95C8F39CDCAC3EE5F012434B2AAC3E8627DEDF1F35B748C2EA88A5D08268524D"
+  },
+  "training_status": "not_started",
+  "expected_characteristics": {
+    "path": "expected_characteristics/W3-C111262801-2A_expected.json",
+    "sha256": "735873FC33D1B5866EE08917A0D7F67BC9082BC4AC6AEF8C74A915F849D27789"
+  }
+}

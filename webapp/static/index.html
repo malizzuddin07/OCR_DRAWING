@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI FAI Extraction Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css?v=20260814-supervisor-review">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>AI-Assisted First Article Inspection</h1>
+            <p>Upload, review balloons, correct rows, and export the FA report.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="upload-section" class="upload-bar">
+            <div>
+                <h2>Upload Drawing</h2>
+                <p>Select a PDF drawing and run extraction.</p>
+            </div>
+            <div class="upload-controls">
+                <input type="file" id="pdf-upload" accept=".pdf">
+                <button id="process-btn">Run Extraction</button>
+                <button type="button" id="cancel-process-btn" class="secondary-btn hidden">Cancel</button>
+            </div>
+            <p id="loading-msg" class="status-pill hidden">Processing drawing...</p>
+        </section>
+
+        <section id="review-section" class="review-stack hidden">
+            <aside class="review-workflow" aria-label="Drawing review workflow">
+                <div>
+                    <strong>1. Add or fix balloons</strong>
+                    <span>Click Add Balloon and draw a box, or edit/delete a table row.</span>
+                </div>
+                <div>
+                    <strong>2. Check OCR values</strong>
+                    <span>Edit the yellow cells. Change a balloon number to reorder the table and drawing.</span>
+                </div>
+                <div>
+                    <strong>3. Check corrected outputs</strong>
+                    <span>Use Corrected PDF and Download Excel. Normal downloads do not create training data.</span>
+                </div>
+                <div>
+                    <strong>4. Approve only when complete</strong>
+                    <span>Approve &amp; Download saves the original and corrected data as a permanent QC record.</span>
+                </div>
+                <p class="learning-notice">
+                    Approved corrections are prepared for controlled future training. The model is not retrained or replaced automatically.
+                </p>
+            </aside>
+            <div class="image-panel panel">
+                <div class="panel-header">
+                    <div>
+                        <h2>Ballooned Drawing</h2>
+                        <p class="hint">Left-click hold to pan. Use mouse wheel to zoom.</p>
+                    </div>
+                    <div class="zoom-controls">
+                        <button type="button" id="zoom-out-btn" class="secondary-btn">Zoom Out</button>
+                        <button type="button" id="zoom-reset-btn" class="secondary-btn">Reset</button>
+                        <button type="button" id="zoom-in-btn" class="secondary-btn">Zoom In</button>
+                        <button type="button" id="place-balloon-btn" class="secondary-btn">Add Balloon</button>
+                        <button id="download-pdf-btn" class="secondary-btn">Download PDF</button>
+                    </div>
+                </div>
+                <div id="metadata-panel" class="metadata-panel hidden"></div>
+                <div class="image-container">
+                    <img id="ballooned-preview" src="" alt="Ballooned drawing preview">
+                    <div id="selection-box" class="selection-box hidden"></div>
+                </div>
+            </div>
+
+            <div class="table-panel panel">
+                <div class="panel-header sticky-panel-header">
+                    <div>
+                        <h2>Review Data</h2>
+                        <p class="hint">Edit yellow cells, add missing rows, then export.</p>
+                    </div>
+                    <div class="review-actions">
+                        <button type="button" id="add-row-btn" class="secondary-btn">Add Row</button>
+                        <button type="button" id="export-corrected-pdf-btn" class="secondary-btn">Corrected PDF</button>
+                        <button id="export-excel-btn" class="success-btn">Download Excel</button>
+                        <button type="button" id="approve-download-btn" class="approval-btn">Approve &amp; Download</button>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table id="results-table">
+                        <thead>
+                            <tr>
+                                <th>Balloon</th>
+                                <th>Symbol</th>
+                                <th>Value</th>
+                                <th>-</th>
+                                <th>+</th>
+                                <th>Min</th>
+                                <th>Max</th>
+                                <th>Remarks</th>
+                                <th>Size</th>
+                                <th>Rotate</th>
+                                <th>Review?</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+
+                <details class="rejected-panel">
+                    <summary>Rejected OCR candidates</summary>
+                    <div class="table-container rejected-table-container">
+                        <table id="rejected-table">
+                            <thead>
+                                <tr>
+                                    <th>Value</th>
+                                    <th>OCR Text</th>
+                                    <th>Reason</th>
+                                    <th>Conf.</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rejected-table-body"></tbody>
+                        </table>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/app.js?v=20260814-supervisor-review"></script>
+</body>
+</html>

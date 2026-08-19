@@ -1,0 +1,19 @@
+{
+  "source_image": "C3010-035-250F-01.png",
+  "image_size": {
+    "width": 2339,
+    "height": 1653
+  },
+  "regions": {
+    "title_block": {
+      "label": "title_block",
+      "x1": 1298,
+      "y1": 1228,
+      "x2": 2286,
+      "y2": 1600,
+      "confidence": 0.9706,
+      "method": "yolo_title_block"
+    }
+  },
+  "candidate_count": 0
+}

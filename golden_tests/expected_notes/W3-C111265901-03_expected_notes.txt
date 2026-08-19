@@ -1,0 +1,39 @@
+STATUS: APPROVED GOLDEN TEST 4
+
+Approval ID: manual-golden4-3c8d91feac19
+Approval method: User final QC confirmation
+Approved job: 3c8d91feac19
+Approved date: 2026-07-20
+Approved characteristics: 103
+Main balloons: 87
+Training status: NOT STARTED
+
+Verified SHA-256:
+- Source PDF: 5A0A75C7D8D71FAA1B0556D920F0091B912C5569A6C322023999764350810949
+- Expected ballooned PDF: 0A6EEAB82BAB6891712366DF2DD155A2E09556F6D6C4D63C0199B102444745D9
+- Expected FA Excel: 10C17BC948E2DC4ADF888A863F5C36F2C5C041E3F75D8776507408F7A41557E0
+
+Drawing: W3-C111265901-03.pdf
+Drawing number: W3-C111265901-03
+Part number: C-3010-035-3230
+Revision: 03
+Material: A5052
+Part name: PLATE, LTP4, BASE, (1)
+
+Required checks:
+- Exactly 103 Excel characteristics and 87 main balloons.
+- Main balloon numbers are sequential from 1 through 87.
+- No missing or duplicate main balloon numbers.
+- No overlapping characteristic frames.
+- Balloon 22 uses the English DEPTH 15 callout requested by final QC.
+- Balloon 50 contains the recovered dimension 9.
+- Balloon 63 contains the recovered Section B-B dimension 1.
+- Balloon 67 contains the recovered dimension 6.
+- Balloons 71 and 72 contain separate dimensions 10 and 11 without overlap.
+- Balloon 83 contains six 5.6 THRU inspection rows.
+- Balloon 84 is CBORE12 and balloon 85 is DEPTH 10.
+- GD&T frames, radii, surface finishes, tolerances, and title-block fields remain correct.
+- Excel customer remarks are blank.
+
+This checklist and the approved PDF/Excel form Golden Drawing Test 4.
+Future OCR, parser, detector, and ballooning changes must not make this drawing worse.

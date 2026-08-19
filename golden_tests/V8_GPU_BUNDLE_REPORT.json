@@ -1,0 +1,9 @@
+﻿{
+    "schema_version":  8,
+    "status":  "gpu_bundle_ready_not_trained",
+    "bundle":  "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\golden_tests\\OCR_DETECTOR_GPU_TRAINING_BUNDLE_v8.zip",
+    "sha256":  "AA940BA89DCEBD4F413FCCEDDF79DB2E3A01864345C925C7EF19C92929F3885D",
+    "starting_model":  "candidate_detector_v7_best.pt",
+    "approved_labels":  966,
+    "production_model_will_change":  false
+}

@@ -1,0 +1,439 @@
+14/5/2026
+- improve the output of the ocr
+- use api key from akmal.izzuddin07@gmail.com
+- use model Gemini 3.1 Flash Lite
+- improve the crop of the table 
+    -> put crop_candidates = 6 as various location
+    -> will have lot of ocr_confident
+    -> choose > ocr_confident
+
+18/5/2026
+- improve the time taken -- before this take almost 3hours 
+    -> reduce the variants(crop_candidates) of OCR from 6 to 3
+    -> if the images had cropped, the system will fetch from cache
+
+- add YOLOv11
+    -> trained to detect: title_block
+    -> epochs: 100
+    -> ultralytics version: 8.4.46
+
+WHAT NEED TO DO NEXT:
+-CHECK THE symbol_detection.txt
+
+
+Phase 1: Stabilize Current Title Block OCR
+- Goal: make your existing System A reliable before adding bigger features.
+- What we need:
+    i. Clean project structure.
+    ii. Confirm input folder/output folder behavior.
+    iii. Make title block detection stable.
+    iv. Use YOLO title-block detection first.
+    v. Keep fallback crop method if YOLO fails.
+    vi. OCR title block using PaddleOCR.
+
+- Extract:
+    -> Part Name
+    -> Material
+    -> Drawing Number
+    -> Revision
+- Export Excel.
+- Save debug images for review.
+- Output of this phase:
+    -> extracted_data_v2.xlsx
+    -> titleblock_verification_v2.xlsx
+    -> title block crop images
+    -> OCR text files
+    -> AI JSON debug files
+
+Phase 2: Create Proper Backend API
+- Goal: change your script into a system that a web app can call.
+- Backend should support:
+    -> Upload drawing PDF.
+    -> Process one file.
+    -> Return OCR result as JSON.
+    -> Return detected title block crop.
+    -> Return debug image.
+    -> Return processing status.
+    -> Export Excel.
+- Recommended backend:
+backend/
+  app/
+    main.py
+    routes/
+      upload.py
+      ocr.py
+      export.py
+    services/
+      pdf_service.py
+      titleblock_service.py
+      ocr_service.py
+      ai_parser_service.py
+      excel_service.py
+    storage/
+      uploads/
+      images/
+      crops/
+      results/
+- Use FastAPI.
+- Example API flow:
+    -> POST /upload
+    -> POST /process/{job_id}
+    -> GET /result/{job_id}
+    -> POST /result/{job_id}/edit
+    -> GET /export/{job_id}
+
+- Output of this phase:
+    -> User can upload one PDF through API.
+    -> API returns extracted title block data.
+    -> Excel can be downloaded.
+
+Phase 3: Build Frontend Upload and Review Screen
+- Goal: user can use the system without running Python manually.
+
+- Frontend should have:
+    -> Upload page.
+    -> Processing/loading status.
+    -> Drawing preview.
+    -> Detected title block preview.
+    -> OCR extracted fields.
+    -> Editable form.
+    -> Save correction button.
+    -> Export Excel button.
+
+- First screen should be the actual tool, not a landing page.
+
+- Basic screens:
+    -> Upload Drawing
+    -> Processing
+    -> Review Result
+    -> Export
+
+- Review form fields:
+    -> Part Name
+    -> Material
+    -> Drawing Number
+    -> Revision
+    -> Measurements & Symbols
+
+- Output of this phase:
+    -> User uploads drawing from browser.
+    -> User reviews title block OCR.
+    -> User edits wrong fields.
+    -> User downloads Excel.
+
+Phase 4: Improve Layout Detection Beyond Title Block
+- Goal: detect more drawing regions, not just title block.
+
+We add region detection for:
+
+title_block
+revision_table
+bom_table
+notes_area
+main_drawing_area
+System B can help here because it has drawing segmentation logic.
+
+What to take from System B:
+
+Frame detection.
+Table detection.
+Rectangle/cluster detection.
+Visual mask output.
+But do not replace your System A. Use System B ideas only.
+
+Output of this phase:
+
+Drawing image with colored detected regions.
+JSON file containing region boxes.
+User can see where the system thinks each area is.
+Example JSON:
+
+{
+  "title_block": [1200, 1800, 2400, 2300],
+  "revision_table": [1300, 1500, 2400, 1750],
+  "bom_table": [100, 300, 600, 1500],
+  "main_drawing_area": [100, 100, 1800, 1600]
+}
+Phase 5: Detect Measurements and Dimensions
+Goal: find all measurement text on the drawing.
+
+This is harder than title block OCR because dimensions can be:
+
+rotated
+small
+near arrows
+split into tolerance values
+mixed with symbols
+inside crowded drawing areas
+We need to detect things like:
+
+10.5
+Ø25
+R3
+45°
+10 ±0.1
+10 +0.1 / -0.0
+M6
+2X Ø5
+Approach:
+
+Use OCR/text detection on the main drawing area.
+Detect rotated text.
+Filter text that looks like dimensions.
+Store text and coordinates.
+Draw balloons near each detected measurement.
+System B can help here:
+
+dimension OCR pipeline
+rotated text detection
+symbol matching
+tolerance handling
+Output of this phase:
+
+[
+  {
+    "id": "D001",
+    "text": "Ø25",
+    "type": "diameter",
+    "box": [450, 600, 520, 640],
+    "confidence": 0.88
+  },
+  {
+    "id": "D002",
+    "text": "10 ±0.1",
+    "type": "linear_dimension",
+    "box": [700, 900, 810, 940],
+    "confidence": 0.82
+  }
+]
+Phase 6: Detect Symbols and GD&T
+Goal: detect engineering symbols, not only normal text.
+
+Symbols include:
+
+Ø
+R
+±
+°
+⌖ position
+⏥ flatness
+⌭ cylindricity
+⟂ perpendicularity
+// parallelism
+profile symbols
+surface finish symbols
+datum labels A, B, C
+This phase may need two methods:
+
+OCR-based symbol detection.
+Template matching or trained object detection.
+Best approach:
+
+Start with common symbols: Ø, R, ±, °.
+Add GD&T frame detection.
+Add symbol classification.
+Connect symbol to nearby measurement text.
+Output of this phase:
+
+[
+  {
+    "id": "S001",
+    "symbol": "Ø",
+    "meaning": "diameter",
+    "box": [430, 600, 448, 640]
+  }
+]
+Phase 7: Ballooning System
+Goal: visually mark every detected measurement/symbol on the drawing.
+
+Ballooning means the system adds numbered callouts like:
+
+D001, D002, D003...
+Each balloon should link to extracted data.
+
+The review screen should show:
+
+Drawing image.
+Balloons over detected measurements.
+Side panel list of measurements.
+Click balloon -> highlight row.
+Click row -> highlight balloon.
+User can edit text/type/confidence/status.
+Measurement table example:
+
+Balloon	Text	Type	Confidence	Status
+D001	Ø25	Diameter	88%	OK
+D002	10 ±0.1	Tolerance	82%	Review
+Output of this phase:
+
+Annotated drawing preview.
+Editable measurement table.
+Balloon metadata.
+Phase 8: Human Review and Correction
+Goal: make the system practical, because OCR will never be perfect.
+
+User must be able to:
+
+Edit title block fields.
+Edit measurement text.
+Change measurement type.
+Delete false detections.
+Add missing measurement manually.
+Move balloon position.
+Mark item as OK or Needs Review.
+This phase is very important.
+
+A good OCR system is not just “AI extracts everything”. A good system lets the human correct quickly.
+
+Output of this phase:
+
+Corrected JSON result.
+Corrected Excel export.
+Saved review history.
+Phase 9: Excel Export
+Goal: export clean data.
+
+Excel should probably have multiple sheets:
+
+Sheet 1: Title Block
+Sheet 2: Measurements
+Sheet 3: Symbols / GD&T
+Sheet 4: Review Summary
+Example columns for measurements:
+
+Balloon ID
+Measurement Text
+Type
+Nominal Value
+Upper Tolerance
+Lower Tolerance
+Unit
+Symbol
+Page
+X Position
+Y Position
+Confidence
+Review Status
+Source File
+Example columns for title block:
+
+Company Name
+Part Name
+Material
+Drawing Number
+Revision
+Source File
+Output of this phase:
+
+Downloadable .xlsx
+Clean reviewed values
+Traceability back to drawing and balloon ID
+Phase 10: Job System and Storage
+Goal: support real users and bigger files.
+
+When user uploads a file, create a job:
+
+job_id = abc123
+status = uploaded / processing / review / completed / failed
+Store:
+
+uploads/
+converted_images/
+detected_regions/
+ocr_results/
+reviewed_results/
+exports/
+You need this because processing can take time.
+
+Output of this phase:
+
+User can leave processing screen.
+System remembers result.
+Failed jobs can be debugged.
+Multiple drawings can be processed.
+Phase 11: Accuracy Testing
+Goal: know whether the system is good enough.
+
+Create a verified dataset.
+
+For each drawing, store correct answers:
+
+correct title block fields
+correct measurements
+correct symbols
+correct balloon count
+Measure:
+
+Title block accuracy
+Measurement detection accuracy
+Symbol detection accuracy
+False positive count
+False negative count
+Average processing time
+Target before deployment:
+
+Title block: 90%+
+Drawing number/revision: 95%+
+Measurement detection: 80%+ first target
+Export correctness after review: 100%
+Phase 12: Deployment
+Goal: make it usable on a real machine/server.
+
+Deployment components:
+
+Frontend
+Backend API
+OCR models
+YOLO model
+Storage folder
+Excel export service
+Environment variables
+Need to configure:
+
+GEMINI_API_KEY
+YOLO model path
+Upload folder
+Export folder
+Max file size
+Allowed file types
+Possible deployment options:
+
+Local office PC
+Internal company server
+Docker deployment
+Cloud VM
+For your case, I recommend first deploy locally/internal, not public internet.
+
+Recommended Build Order
+Do it in this order:
+
+Stabilize title block OCR.
+Convert Python script into FastAPI backend.
+Build upload/review/export frontend.
+Add layout detection for drawing regions.
+Add measurement detection.
+Add symbol/GD&T detection.
+Add ballooning UI.
+Add human edit workflow.
+Improve Excel export.
+Add job system/storage.
+Add accuracy testing.
+Deploy.
+Important Teacher Advice
+Do not try to build everything at once.
+
+Your first deployable version should be:
+
+Upload PDF
+Detect title block
+OCR title block
+Review/edit fields
+Export Excel
+That is Version 1.
+
+Then Version 2 adds:
+
+Measurements + balloons
+Then Version 3 adds:
+
+GD&T + advanced symbols

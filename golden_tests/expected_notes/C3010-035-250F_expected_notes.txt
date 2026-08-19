@@ -1,0 +1,36 @@
+STATUS: APPROVED GOLDEN TEST 2
+
+Approval ID: 284a4a702082b6c9
+Approved job: c7bd83ae9d04
+Approved date: 2026-07-16
+Approved characteristics: 29
+Valid saved crops: 29
+Training status: NOT STARTED
+
+Verified SHA-256:
+- Source PDF: 4A302478EEB4B6DE189A5F4F1712C84BE62440A3446A5B8BD464AA066EA6E73B
+- Expected ballooned PDF: 4508895FC99C2042E2E07BD66C800057E71B8DD876AA7A6453B163E5EB2C6427
+- Expected FA Excel: 6C6B6FD1D4D94C3000DFAFF9C0E0F735CB86963F90350E39EB7FC0F4AC062130
+
+Drawing: C3010-035-250F-01.pdf
+Drawing number: C3010-035-250F
+Revision: 01
+Material: SUS304
+Part name: PLATE, LTP1, PULLEY SUPPORT
+
+Required checks:
+- Exactly 29 characteristics and balloon numbers 1 through 29.
+- No missing or duplicate balloon numbers.
+- No overlapping balloons.
+- Balloon 1 is perpendicularity 0.05 to datum Y.
+- Balloon 2 value is 112.0, without a trailing hyphen.
+- M5X0.8 and DEPTH 15 are separate characteristics and separate balloons.
+- DEPTH 15 has lower tolerance 0.2, upper tolerance 0.2, minimum 14.8, and maximum 15.2.
+- M4X0.7 and DEPTH 12 are separate characteristics and separate balloons.
+- DEPTH 12 has lower tolerance 0.2, upper tolerance 0.2, minimum 11.8, and maximum 12.2.
+- Excel customer remarks are blank.
+- Check every dimension, GD&T frame, surface finish, radius, chamfer, and diameter.
+- Check title-block drawing number, revision, material, and part name.
+
+This checklist and the approved PDF/Excel form Golden Drawing Test 2.
+Future OCR, parser, detector, and ballooning changes must not make this drawing worse.

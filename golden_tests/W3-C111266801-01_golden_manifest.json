@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "approved",
+  "golden_test_number": 5,
+  "approval_id": "308976f85f87d720",
+  "approval_method": "protected_approve_endpoint_user_final_qc_and_verified_golden_update",
+  "job_id": "8ada7b2e31e2",
+  "drawing_number": "W3-C111266801-01",
+  "part_number": "C-3020-060-4210",
+  "revision": "01",
+  "approved_characteristics": 77,
+  "main_balloons": 58,
+  "valid_crops": 76,
+  "source_pdf": {
+    "path": "drawings/W3-C111266801-01.pdf",
+    "sha256": "A09A7294D849AB3AA316571142DB2C10EB72100DC0F884C1AA508859B2C80038"
+  },
+  "expected_pdf": {
+    "path": "expected_pdf/W3-C111266801-01_expected.pdf",
+    "sha256": "AC3BED2FF40DDF8FCEAEB1D5A34B58A1A16206D5F173254EF064D9600DE0E3AA"
+  },
+  "expected_excel": {
+    "path": "expected_excel/W3-C111266801-01_expected.xlsx",
+    "sha256": "A844B1C3AD71F4479761ED342B30A6259306EC6C38285D592ECBCFAF50CD0385"
+  },
+  "training_status": "not_started",
+  "expected_characteristics": {
+    "path": "expected_characteristics/W3-C111266801-01_expected.json",
+    "sha256": "8B01CB95C562526FE20D9338AEE7D133EA335346AC8A43B6D77F117C0EAB3FF3"
+  },
+  "last_golden_update": {
+    "timestamp": "2026-08-12T08:39:48.609919+00:00",
+    "run": "runs\\v3_v7_v8_rescue_single_W3-C111266801-01_20260812_161033",
+    "approved_extra_specification": "10",
+    "comparison": {
+      "missing": 0,
+      "incorrect": 0,
+      "extra_approved": 1
+    },
+    "layout_issue_count": 0,
+    "backup": "backups\\W3-C111266801-01_20260812T083948Z_before_approved_10"
+  }
+}

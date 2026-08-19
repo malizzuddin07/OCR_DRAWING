@@ -1,0 +1,297 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="YXYLte1U-ln2YMNXh2zf">
+    <mxGraphModel dx="774" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-26" connectable="0" parent="1" style="group;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="1100" width="237.04999999999998" x="60" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-3" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-1" parent="l-2RdY_fHer8IB1-hyrn-26" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=10;" value="User open the browser&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="27.83710631091746" width="114.78920794847105" x="26.15539602576447" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-5" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-2" parent="l-2RdY_fHer8IB1-hyrn-26" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=10;" value="Upload drawing pdf" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="76.552042355023" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-7" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-4" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="System create unique Job Id and job folder" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="173.9819144432341" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-9" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-6" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="Render pdf into high resolution image" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="271.4117865314452" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-11" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-8" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="Extracing Title Block informations" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="368.8416586196563" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-13" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-10" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="Detect dimensions &amp;amp; symbols" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="466.27153070786744" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-15" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-12" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="OCR results cleaned, combined &amp;amp; validated" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="574.1214027960784" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-17" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-14" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="Inspection characteristics generated" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="661.1312748842896" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-19" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-16" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="Balloon positioned on the drawing" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="758.5611469725008" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-21" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-18" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="User review and corrects the results" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="855.9910190607118" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-23" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="l-2RdY_fHer8IB1-hyrn-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83.59081582804097" y="1050.850763237134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-20" parent="l-2RdY_fHer8IB1-hyrn-26" style="whiteSpace=wrap;html=1;fontSize=10;" value="System performs quality checks&amp;nbsp;" vertex="1">
+          <mxGeometry height="41.75565946637619" width="129.95004673411816" x="18.574976632940903" y="953.4208911489229" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-25" parent="l-2RdY_fHer8IB1-hyrn-26" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=10;" value="Final approved PDF, Excel, source PDF, crops, approval record and ZIP package saved" vertex="1">
+          <mxGeometry height="49.290515309932786" width="167.1" y="1050.7094846900673" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-27" parent="l-2RdY_fHer8IB1-hyrn-26" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="POST/api/upload-async" vertex="1">
+          <mxGeometry height="30" width="129.95" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-63" edge="1" parent="l-2RdY_fHer8IB1-hyrn-26" source="l-2RdY_fHer8IB1-hyrn-25" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="l-2RdY_fHer8IB1-hyrn-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="888" />
+            </Array>
+            <mxPoint x="440" y="918" as="sourcePoint" />
+            <mxPoint x="490" y="868" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-28" edge="1" parent="1" source="l-2RdY_fHer8IB1-hyrn-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="l-2RdY_fHer8IB1-hyrn-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="214.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="39.92" />
+              <mxPoint x="180" y="40" />
+            </Array>
+            <mxPoint x="640" y="40" as="sourcePoint" />
+            <mxPoint x="170" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-47" edge="1" parent="1" source="l-2RdY_fHer8IB1-hyrn-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="l-2RdY_fHer8IB1-hyrn-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="411.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-54" edge="1" parent="1" source="l-2RdY_fHer8IB1-hyrn-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="l-2RdY_fHer8IB1-hyrn-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="530" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-62" edge="1" parent="1" source="l-2RdY_fHer8IB1-hyrn-55" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="l-2RdY_fHer8IB1-hyrn-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="560" />
+              <mxPoint x="340" y="580" />
+            </Array>
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="290" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-64" edge="1" parent="1" source="l-2RdY_fHer8IB1-hyrn-12" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="l-2RdY_fHer8IB1-hyrn-66" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="740" as="sourcePoint" />
+            <mxPoint x="360" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-67" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="620" width="430" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-43" connectable="0" parent="l-2RdY_fHer8IB1-hyrn-67" style="group" value="" vertex="1">
+          <mxGeometry height="253.41" width="430" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-45" connectable="0" parent="l-2RdY_fHer8IB1-hyrn-43" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="195.74" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-31" edge="1" parent="l-2RdY_fHer8IB1-hyrn-45" source="l-2RdY_fHer8IB1-hyrn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-29" parent="l-2RdY_fHer8IB1-hyrn-45" style="rounded=0;whiteSpace=wrap;html=1;" value="Start Processing in the backgrounds" vertex="1">
+          <mxGeometry height="41.76" width="160" x="20" y="153.98000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-34" edge="1" parent="l-2RdY_fHer8IB1-hyrn-45" source="l-2RdY_fHer8IB1-hyrn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-38" edge="1" parent="l-2RdY_fHer8IB1-hyrn-45" source="l-2RdY_fHer8IB1-hyrn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="30" as="sourcePoint" />
+            <mxPoint x="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-30" parent="l-2RdY_fHer8IB1-hyrn-45" style="whiteSpace=wrap;html=1;rounded=0;" value="Regularly polls GET/api/jobs/&amp;lt;job_id&amp;gt;" vertex="1">
+          <mxGeometry height="41.76" width="200" y="38.219999999999985" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-39" edge="1" parent="l-2RdY_fHer8IB1-hyrn-45" source="l-2RdY_fHer8IB1-hyrn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.0344827586207" y="17.099999999999966" as="sourcePoint" />
+            <mxPoint x="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-33" parent="l-2RdY_fHer8IB1-hyrn-45" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="Return Job statuses" vertex="1">
+          <mxGeometry height="50.88" width="120" x="280" y="33.66" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-53" connectable="0" parent="l-2RdY_fHer8IB1-hyrn-67" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="60" width="430" y="341.72" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-50" edge="1" parent="l-2RdY_fHer8IB1-hyrn-53" source="l-2RdY_fHer8IB1-hyrn-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="l-2RdY_fHer8IB1-hyrn-51" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385.5749999999998" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-48" parent="l-2RdY_fHer8IB1-hyrn-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Extract metadata informations:&lt;br&gt;&lt;i&gt;Part Number, Drawing Number, Revision, Material, Part Name, General Tolerances&lt;/i&gt;" vertex="1">
+          <mxGeometry height="60" width="237.05" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-51" parent="l-2RdY_fHer8IB1-hyrn-53" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" value="Stored in generated_jobs/jobs/&lt;div&gt;&amp;lt;job_id&amp;gt;/titleblock_debug/&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-55" parent="l-2RdY_fHer8IB1-hyrn-67" style="rounded=0;whiteSpace=wrap;html=1;" value="Run on 3 detection operations parallelly:&lt;br&gt;- Local Yolo&lt;br&gt;- Roboflow&lt;br&gt;- embedded PDF extraction" vertex="1">
+          <mxGeometry height="60" width="237.05" y="439.15" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-66" parent="l-2RdY_fHer8IB1-hyrn-67" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="- symbol_detections.xlsx&lt;div&gt;- roboflow_detections.xlsx&lt;/div&gt;&lt;div&gt;- detector_diagnostics.xlsx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-68" parent="l-2RdY_fHer8IB1-hyrn-67" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=7" value="DETAILS OF EACH PROCESSES" vertex="1">
+          <mxGeometry height="30" width="410" x="10" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-101" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="189.76" width="261.47" x="1160" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-97" edge="1" parent="l-2RdY_fHer8IB1-hyrn-101" source="l-2RdY_fHer8IB1-hyrn-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-95" parent="l-2RdY_fHer8IB1-hyrn-101" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="User edit,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;re-enter; the data extracted from the balloon in the table preview&lt;/span&gt;" vertex="1">
+          <mxGeometry height="41.76" width="237.05" x="12.210000000000036" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-100" edge="1" parent="l-2RdY_fHer8IB1-hyrn-101" source="l-2RdY_fHer8IB1-hyrn-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-96" parent="l-2RdY_fHer8IB1-hyrn-101" style="whiteSpace=wrap;html=1;" value="update into the final report excel file" vertex="1">
+          <mxGeometry height="30" width="237.05" x="12.210000000000036" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-99" parent="l-2RdY_fHer8IB1-hyrn-101" style="whiteSpace=wrap;html=1;" value="re-train the model to improve the accuracy and consistency of the model" vertex="1">
+          <mxGeometry height="41.76" width="261.47" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-104" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="401.76" width="261.47" x="1160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-102" parent="l-2RdY_fHer8IB1-hyrn-104" style="whiteSpace=wrap;html=1;" value="re-train the model to improve the accuracy and consistency of the model" vertex="1">
+          <mxGeometry height="41.76" width="261.47" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-103" edge="1" parent="l-2RdY_fHer8IB1-hyrn-104" source="l-2RdY_fHer8IB1-hyrn-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l-2RdY_fHer8IB1-hyrn-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-91" edge="1" parent="l-2RdY_fHer8IB1-hyrn-104" source="l-2RdY_fHer8IB1-hyrn-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-90" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-89" parent="l-2RdY_fHer8IB1-hyrn-104" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="User delete any balloon using the table preview" vertex="1">
+          <mxGeometry height="60" width="120" x="70.74000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-93" edge="1" parent="l-2RdY_fHer8IB1-hyrn-104" source="l-2RdY_fHer8IB1-hyrn-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l-2RdY_fHer8IB1-hyrn-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-90" parent="l-2RdY_fHer8IB1-hyrn-104" style="whiteSpace=wrap;html=1;" value="The system will automatically reorder the balloon numbers and sort back the table" vertex="1">
+          <mxGeometry height="60" width="170" x="45.74000000000001" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-92" parent="l-2RdY_fHer8IB1-hyrn-104" style="whiteSpace=wrap;html=1;" value="The system will take note and improve the model based on the review, extractions data, balloons" vertex="1">
+          <mxGeometry height="60" width="205" x="28.24000000000001" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-126" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=0;rounded=0;shadow=0;" value="" vertex="1">
+          <mxGeometry height="1032.76" width="236.36622944960686" x="861.77" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-119" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="re-train the model to improve the accuracy and consistency of the model" vertex="1">
+          <mxGeometry height="41.76" width="236.3662294496069" y="991" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-75" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-71" parent="l-2RdY_fHer8IB1-hyrn-126" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="User can add new balloon into the drawing" vertex="1">
+          <mxGeometry height="60" width="135.5984794333615" x="50.3793550588083" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-77" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-74" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="The system will OCR new balloon" vertex="1">
+          <mxGeometry height="60" width="108.47878354668919" x="63.93920300214438" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-79" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-76" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="Extract the new balloon dimensions into the excel and preview extract table" vertex="1">
+          <mxGeometry height="49.29" width="214.19" x="11.080000000000041" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-81" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-78" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="User review the extraction value&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="108.47878354668919" x="63.93920300214438" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-83" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-80" parent="l-2RdY_fHer8IB1-hyrn-126" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="User change the new balloon numbering&amp;nbsp;" vertex="1">
+          <mxGeometry height="49.29" width="153.67827669114303" x="41.339456429917504" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-85" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-82" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="The system will reorder and sort back the table" vertex="1">
+          <mxGeometry height="60" width="144.63837806225226" x="45.8594057443629" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-87" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="l-2RdY_fHer8IB1-hyrn-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-84" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="the numbering in the drawing will follow the new numbering from excel/preview table" vertex="1">
+          <mxGeometry height="49.29" width="214.2907969978556" x="11.03771622587567" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-106" edge="1" parent="l-2RdY_fHer8IB1-hyrn-126" source="l-2RdY_fHer8IB1-hyrn-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="l-2RdY_fHer8IB1-hyrn-119" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.17859477548905" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-2RdY_fHer8IB1-hyrn-86" parent="l-2RdY_fHer8IB1-hyrn-126" style="whiteSpace=wrap;html=1;" value="The system will take note and improve the model based on the review, new balloon, extractions data" vertex="1">
+          <mxGeometry height="60" width="185.3179218922607" x="25.519633829358668" y="860" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

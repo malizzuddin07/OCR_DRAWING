@@ -1,0 +1,12 @@
+pdf2image
+opencv-python
+paddlepaddle
+paddleocr
+pandas
+google-genai
+openpyxl
+ultralytics
+inference-sdk
+fastapi
+uvicorn
+python-multipart

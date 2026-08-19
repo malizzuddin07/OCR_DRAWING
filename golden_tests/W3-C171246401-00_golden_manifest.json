@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "approved",
+  "golden_test_number": 1,
+  "approval_id": "f50592e0041380f7",
+  "job_id": "305ff0399dc9",
+  "drawing_number": "W3-C171246401-00",
+  "part_number": "C-3020-175-6400",
+  "revision": "00",
+  "approved_characteristics": 66,
+  "main_balloons": 56,
+  "valid_crops": 66,
+  "source_pdf": {
+    "path": "drawings/FAB-C-3020-175-6400 W3-C171246401-00.pdf",
+    "sha256": "30B3CD6EC106103980EDB999ABB1D1380CE8AF0C4CD0B0FADC676C2BDA94BDA0"
+  },
+  "expected_pdf": {
+    "path": "expected_pdf/W3-C171246401-00_expected.pdf",
+    "sha256": "DA3293028E871880A6124D6C1160BC9D86DCAD62431600A10DAB7ADFA9D5F3EF"
+  },
+  "expected_excel": {
+    "path": "expected_excel/W3-C171246401-00_expected.xlsx",
+    "sha256": "986D5740C2992B53C165A275CC0ACB1E99F141B552FB8A249A22AD7711BDDEA2"
+  },
+  "training_status": "not_started",
+  "expected_characteristics": {
+    "path": "expected_characteristics/W3-C171246401-00_expected.json",
+    "sha256": "F12F6427B280F129544D7C50E65A3FA518541A01794E098CC5957FBC308EF45A"
+  },
+  "approval_method": "protected_approve_endpoint_user_final_qc_and_verified_golden_update",
+  "last_golden_update": {
+    "timestamp": "2026-08-14T03:47:48.968967+00:00",
+    "run": "runs\\v3_v7_v8_rescue_single_FAB-C-3020-175-6400_W3-C171246401-00_20260814_104151",
+    "human_qc_correction": "Balloon 56 corrected from 2X R0.02 to 2X R0.2",
+    "layout_issue_count": 0,
+    "backup": "backups\\W3-C171246401-00_20260814_balloon56_R0.2_fix"
+  }
+}

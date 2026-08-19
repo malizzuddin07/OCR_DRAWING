@@ -1,0 +1,59 @@
+{
+  "render_source": "content_hash_cache",
+  "measurement_ocr_source": "fresh_ocr",
+  "seconds": {
+    "analyse_balloon_layout": 0.006,
+    "build_characteristics": 0.581,
+    "deduplicate_measurements": 0.022,
+    "degree_angle_rescue": 35.605,
+    "dimension_gap_rescue": 0.332,
+    "draw_balloons": 0.034,
+    "drill_callout_ocr": 74.455,
+    "filter_symbol_detections": 0.0,
+    "full_page_measurement_ocr": 1674.436,
+    "gdt_context_ocr": 19.875,
+    "local_yolo_detection": 0.0,
+    "merge_symbol_detections": 0.001,
+    "parallel_discovery_wall": 50.764,
+    "pdf_text_extraction": 0.098,
+    "prepare_fa_rows": 0.0,
+    "render_source_image": 0.31,
+    "roboflow_detection": 48.111,
+    "save_ballooned_image": 0.362,
+    "save_ballooned_pdf": 0.911,
+    "save_fa_excel": 0.1,
+    "save_measurements": 0.075,
+    "save_rejected_candidates": 0.034,
+    "save_roboflow_detections": 8.532,
+    "save_symbol_detections": 0.106,
+    "stacked_tolerance_ocr": 0.0,
+    "symbol_context_ocr": 14.558,
+    "titleblock_ocr": 592.191,
+    "total": 2520.957,
+    "yolo_text_box_ocr": 47.627
+  },
+  "detectors": {
+    "roboflow": {
+      "enabled": true,
+      "workspace": "krafo",
+      "workflow_id": "ocrengineeringdrawing",
+      "active_model_id": "krafo/ocr-balloon-system-5-yolov8s-t1",
+      "confidence_threshold": 0.45,
+      "tiling_enabled": true,
+      "include_full_image": true,
+      "tile_overlap": 0.15,
+      "max_regions": 5,
+      "status_counts": {
+        "accepted": 33,
+        "duplicate": 25,
+        "rejected": 1
+      },
+      "contribution_confirmed": true,
+      "warning": ""
+    },
+    "accepted_detection_counts": {
+      "roboflow": 33
+    },
+    "accepted_detection_total": 33
+  }
+}

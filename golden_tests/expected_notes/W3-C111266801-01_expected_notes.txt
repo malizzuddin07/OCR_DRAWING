@@ -1,0 +1,40 @@
+STATUS: APPROVED GOLDEN TEST 5
+
+Approval ID: 308976f85f87d720
+Approval method: Protected approval endpoint plus user final QC confirmation
+Approved job: 8ada7b2e31e2
+Approved date: 2026-07-21
+Approved characteristics: 76
+Main balloons: 57
+Valid approved crops: 76
+Training status: NOT STARTED
+
+Verified SHA-256:
+- Source PDF: A09A7294D849AB3AA316571142DB2C10EB72100DC0F884C1AA508859B2C80038
+- Expected ballooned PDF: 2181A412E3B9DD175ABF81E3BA8E70B68EBAAE4F23244D0A29CDE12C38AA5D9D
+- Expected FA Excel: 015D5F1204EF4E2F3426EC67299C512D8B10D2D88C9ACECF6418EB042873A490
+
+Drawing: W3-C111266801-01.pdf
+Drawing number: W3-C111266801-01
+Part number: C-3020-060-4210
+Revision: 01
+Material: A5052
+Part name: BRACKET, 65,LTP,450MM
+
+Required checks:
+- Exactly 76 Excel characteristics and 57 main balloons.
+- Main balloon numbers are sequential from 1 through 57.
+- No missing or duplicate main balloon numbers.
+- No overlapping characteristic frames or balloon circles.
+- Characteristic frames have safe padding; text must not touch the frame edge.
+- Japanese duplicate notes are not ballooned when the English callout is present.
+- The GD&T perpendicularity frame is complete: perpendicularity, 0.05, datum Z.
+- Balloon 39 contains separate CBORE 11 and DEPTH 7 inspection rows.
+- The recovered vertical dimension 6 and corrected dimension 17 remain present.
+- Balloon 52 has blank symbol, nominal 4, tolerance class H8, lower tolerance 0.000,
+  upper tolerance +0.018, minimum 4.000, and maximum 4.018.
+- The false note C0.3-C0.4 is not treated as an inspection characteristic.
+- Title-block fields remain correct.
+
+This checklist and the approved PDF/Excel form Golden Drawing Test 5.
+Future OCR, parser, detector, and ballooning changes must not make this drawing worse.

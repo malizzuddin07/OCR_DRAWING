@@ -1,0 +1,45 @@
+﻿# Machine learning models
+*.pt
+*.pth
+*.onnx
+
+# Large archives
+*.zip
+*.tar.gz
+*.rar
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets & Config
+.env
+.env.*
+
+# Generated & Temp files
+runs/
+outputs/
+output/
+temp/
+tmp/
+*.log
+*.cache
+
+# Project Datasets, Training Packages & Storage
+golden_tests/detector_dataset_*/
+golden_tests/detector_training_package_*/
+golden_tests/drawings/
+golden_tests/previews/
+private_data/
+webapp/storage/
+incoming_models/*/
+!incoming_models/README.md
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

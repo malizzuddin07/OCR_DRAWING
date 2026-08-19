@@ -1,0 +1,19 @@
+{
+  "source_image": "FAB-C-3060-010-9100_W3-C100807301-00.png",
+  "image_size": {
+    "width": 4678,
+    "height": 3308
+  },
+  "regions": {
+    "title_block": {
+      "label": "title_block",
+      "x1": 3128,
+      "y1": 2448,
+      "x2": 4602,
+      "y2": 3220,
+      "confidence": 0.9907,
+      "method": "yolo_title_block"
+    }
+  },
+  "candidate_count": 0
+}

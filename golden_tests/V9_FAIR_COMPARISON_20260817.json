@@ -1,0 +1,105 @@
+{
+  "data": "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\golden_tests\\detector_training_package_v7\\runtime_data.yaml",
+  "split": "test",
+  "settings": {
+    "imgsz": 1280,
+    "batch": 1,
+    "conf": 0.001,
+    "iou": 0.7,
+    "device": "cpu"
+  },
+  "ranking": [
+    {
+      "model": "V3",
+      "weights": "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\incoming_models\\candidate_yolov8s_golden_v3_20260727\\golden_detector_v3\\weights\\best.pt",
+      "precision": 0.6653911103660006,
+      "recall": 0.42268538750246915,
+      "map50": 0.500218607660714,
+      "map50_95": 0.3420538633621764,
+      "per_class_map50": {
+        "dimension": 0.5075250701466227,
+        "diameter": 0.755,
+        "radius": 0.2802941176470588,
+        "chamfer_callout": 0.32249999999999995,
+        "thread_callout": 0.5071212121212122,
+        "hole_callout": 0.13523809523809524,
+        "surface_finish": 0.5165703661327231,
+        "gdt_frame": 0.9775
+      }
+    },
+    {
+      "model": "V7",
+      "weights": "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\incoming_models\\candidate_yolov8s_golden_v7_20260803\\golden_detector_v7\\weights\\best.pt",
+      "precision": 0.5974611337348892,
+      "recall": 0.4904411764705882,
+      "map50": 0.5463236953587869,
+      "map50_95": 0.3358348107177424,
+      "per_class_map50": {
+        "dimension": 0.6086469511342052,
+        "diameter": 0.7887500000000001,
+        "radius": 0.26924603174603173,
+        "chamfer_callout": 0.3614194139194139,
+        "thread_callout": 0.6561111111111111,
+        "hole_callout": 0.2265372670807453,
+        "surface_finish": 0.5173787878787879,
+        "gdt_frame": 0.9425000000000001
+      }
+    },
+    {
+      "model": "V8",
+      "weights": "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\incoming_models\\candidate_yolov8s_golden_v8_20260812\\return_results_v8_20260812_141442\\golden_detector_v8\\weights\\best.pt",
+      "precision": 0.616648462972825,
+      "recall": 0.48124999999999996,
+      "map50": 0.5542197201804058,
+      "map50_95": 0.33459949369308617,
+      "per_class_map50": {
+        "dimension": 0.5989250628140871,
+        "diameter": 0.775,
+        "radius": 0.29370870795380605,
+        "chamfer_callout": 0.385595238095238,
+        "thread_callout": 0.6727777777777778,
+        "hole_callout": 0.22517857142857145,
+        "surface_finish": 0.5588224033737663,
+        "gdt_frame": 0.9237500000000001
+      }
+    },
+    {
+      "model": "V1",
+      "weights": "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\incoming_models\\candidate_yolov8s_golden_v1_20260723\\best.pt",
+      "precision": 0.47522835276152153,
+      "recall": 0.5506025752752688,
+      "map50": 0.46899279992790677,
+      "map50_95": 0.3210034849144972,
+      "per_class_map50": {
+        "dimension": 0.4907625332409551,
+        "diameter": 0.775,
+        "radius": 0.2073291238995887,
+        "chamfer_callout": 0.23196514161220044,
+        "thread_callout": 0.49736593059936907,
+        "hole_callout": 0.1222072072072072,
+        "surface_finish": 0.4634235739750446,
+        "gdt_frame": 0.9638888888888889
+      }
+    },
+    {
+      "model": "V9",
+      "weights": "C:\\Users\\izzuddin\\AppData\\Local\\Temp\\ocr_v9_return_validation\\return_results_v9_20260817_082247\\golden_detector_v9\\weights\\best.pt",
+      "precision": 0.31323230073287417,
+      "recall": 0.5905358712494695,
+      "map50": 0.4232281444609857,
+      "map50_95": 0.21764316106397744,
+      "per_class_map50": {
+        "dimension": 0.5825487362908448,
+        "diameter": 0.29075000000000006,
+        "radius": 0.46159622195985817,
+        "chamfer_callout": 0.3091111111111111,
+        "thread_callout": 0.3646666666666667,
+        "hole_callout": 0.020623796688486715,
+        "surface_finish": 0.4140286229709181,
+        "gdt_frame": 0.9425000000000001
+      }
+    }
+  ],
+  "detector_winner": "V3",
+  "production_model_will_change": false
+}

@@ -1,0 +1,31 @@
+Drawing:
+
+Bad/current system job ID:
+
+Corrected/golden job ID:
+
+Expected row count:
+
+Expected corrected Excel path:
+
+Expected corrected PDF path:
+
+Expected corrected image path:
+
+Wrong current output:
+- 
+
+Correct expected output:
+- 
+
+Missing items:
+- 
+
+Wrong balloons:
+- 
+
+Rows that should be rejected:
+- 
+
+Notes:
+- 

@@ -1,0 +1,19 @@
+{
+  "source_image": "W3-C111263001-1A.png",
+  "image_size": {
+    "width": 2339,
+    "height": 1654
+  },
+  "regions": {
+    "title_block": {
+      "label": "title_block",
+      "x1": 1563,
+      "y1": 1219,
+      "x2": 2298,
+      "y2": 1610,
+      "confidence": 0.9896,
+      "method": "yolo_title_block"
+    }
+  },
+  "candidate_count": 0
+}

@@ -1,0 +1,26 @@
+﻿[
+    {
+        "File":  "code\\config.py",
+        "SHA256":  "FE00348BEFC8B418F835CDA1ADBE1326715EF7DBCA51DCFFCC67BDDE059B2BEF"
+    },
+    {
+        "File":  "code\\detector_ensemble.py",
+        "SHA256":  "D20E0E8568460E0232B75D118CC536FB414BAF03974684956AA755A8934E8745"
+    },
+    {
+        "File":  "code\\vision_tools.py",
+        "SHA256":  "B14048F463149E7F2B85EC0BD06F22A70BE8BF35F41227DA7F7242E69DDEA8B1"
+    },
+    {
+        "File":  "tests\\test_evaluate_detector_ensemble.py",
+        "SHA256":  "3731C43E40B6AB56AD899F2871DBDB8CEC8988F96EC3D62DB2EC397FD1F46329"
+    },
+    {
+        "File":  "tests\\test_vision_tools_detector_ensemble.py",
+        "SHA256":  "015B82806195B14B17847355B53FB4149AC52B05BA10EDA56108EAC98B601BBC"
+    },
+    {
+        "File":  ".env.example",
+        "SHA256":  "ADF808A51AB283A7DBB1E6E9C6D185110B8919C3743E4546954322CDF3A5B585"
+    }
+]

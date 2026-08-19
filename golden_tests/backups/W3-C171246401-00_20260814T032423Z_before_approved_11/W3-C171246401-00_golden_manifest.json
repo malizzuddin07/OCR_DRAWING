@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "approved",
+  "golden_test_number": 1,
+  "approval_id": "f50592e0041380f7",
+  "job_id": "305ff0399dc9",
+  "drawing_number": "W3-C171246401-00",
+  "part_number": "C-3020-175-6400",
+  "revision": "00",
+  "approved_characteristics": 65,
+  "main_balloons": 55,
+  "valid_crops": 65,
+  "source_pdf": {
+    "path": "drawings/FAB-C-3020-175-6400 W3-C171246401-00.pdf",
+    "sha256": "30B3CD6EC106103980EDB999ABB1D1380CE8AF0C4CD0B0FADC676C2BDA94BDA0"
+  },
+  "expected_pdf": {
+    "path": "expected_pdf/W3-C171246401-00_expected.pdf",
+    "sha256": "2B225039852758E7E393A3E1A43CDEE7F2A382CBB2843051E6362D9C1F4E2A88"
+  },
+  "expected_excel": {
+    "path": "expected_excel/W3-C171246401-00_expected.xlsx",
+    "sha256": "632359C3BB192CDAD17C8D18AB7492CE35F2D06DA7E7DEA21115910F0FAD5186"
+  },
+  "training_status": "not_started",
+  "expected_characteristics": {
+    "path": "expected_characteristics/W3-C171246401-00_expected.json",
+    "sha256": "A02789433E4CCB6D426D763FC005B0EF62CE66E4E760F4A79B0D3DF94E3330A7"
+  }
+}

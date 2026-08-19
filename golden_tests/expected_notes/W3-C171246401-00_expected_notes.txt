@@ -1,0 +1,38 @@
+STATUS: APPROVED GOLDEN TEST 1
+
+Approval ID: f50592e0041380f7
+Approved job: 305ff0399dc9
+Approved date: 2026-07-16
+Approved characteristics: 65
+Valid saved crops: 65
+Training status: NOT STARTED
+
+Verified SHA-256:
+- Source PDF: 30B3CD6EC106103980EDB999ABB1D1380CE8AF0C4CD0B0FADC676C2BDA94BDA0
+- Expected ballooned PDF: 2B225039852758E7E393A3E1A43CDEE7F2A382CBB2843051E6362D9C1F4E2A88
+- Expected FA Excel: 632359C3BB192CDAD17C8D18AB7492CE35F2D06DA7E7DEA21115910F0FAD5186
+
+Drawing: FAB-C-3020-175-6400 W3-C171246401-00.pdf
+Drawing number: W3-C171246401-00
+
+Known checks from the previous manual review:
+- Balloon 8: value must be 195.5.
+- Balloon 9: keep the numbered thread callout; remove unrelated Japanese drill text.
+- Balloon 19: lower tolerance 0.05 and upper tolerance 0.
+- Balloon 20: lower tolerance 0.025 and upper tolerance -0.009.
+- Balloon 21: value must be 25.
+- Balloons 25 and 27: resolve the overlap; balloon 25 value must be 53.
+- Balloon 28: nominal value 3 and upper tolerance 0.09.
+- Balloon 29: value must be 19, not 6 diameter.
+- Balloon 30: value must be 0.5.
+- Balloon 33: value must be DEPTH 6 once, without duplication.
+- Balloon 35: value must be DEPTH 15.
+- Balloon 37: value 186 must be extracted and ballooned correctly.
+- Balloon 39: keep the 4X M6 thread value and remove unrelated drill/depth text.
+- Check every GD&T frame.
+- Check every basic dimension.
+- Check for missing, duplicate, or overlapping balloons.
+- Check all title-block metadata.
+
+This checklist and the approved PDF/Excel now form Golden Drawing Test 1.
+Future OCR or detector changes must not make this drawing worse.

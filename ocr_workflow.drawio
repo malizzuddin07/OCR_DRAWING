@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EFfvz7QjZop-lw7jmPFD">
+    <mxGraphModel dx="323" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iuRitHxlWXDX31a7S37E-37" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="830" width="235" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-16" parent="iuRitHxlWXDX31a7S37E-37" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=5;fontSize=18;labelBorderColor=none;textShadow=0;" value="USER WORKFLOW" vertex="1">
+          <mxGeometry height="30" width="170" x="9.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-3" edge="1" parent="iuRitHxlWXDX31a7S37E-37" source="iuRitHxlWXDX31a7S37E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-1" parent="iuRitHxlWXDX31a7S37E-37" style="rounded=0;whiteSpace=wrap;html=1;" value="User go into the website" vertex="1">
+          <mxGeometry height="60" width="120" x="57.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-5" edge="1" parent="iuRitHxlWXDX31a7S37E-37" source="iuRitHxlWXDX31a7S37E-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-2" parent="iuRitHxlWXDX31a7S37E-37" style="rounded=0;whiteSpace=wrap;html=1;" value="User upload the drawing PDF/image" vertex="1">
+          <mxGeometry height="60" width="148" x="43.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-7" edge="1" parent="iuRitHxlWXDX31a7S37E-37" source="iuRitHxlWXDX31a7S37E-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iuRitHxlWXDX31a7S37E-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-4" parent="iuRitHxlWXDX31a7S37E-37" style="rounded=0;whiteSpace=wrap;html=1;" value="System will scan the drawing, OCR and auto-Balloon the drawing" vertex="1">
+          <mxGeometry height="60" width="196" x="19.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-11" edge="1" parent="iuRitHxlWXDX31a7S37E-37" source="iuRitHxlWXDX31a7S37E-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-8" parent="iuRitHxlWXDX31a7S37E-37" style="whiteSpace=wrap;html=1;rounded=0;" value="System will preview the ballooned drawing and the inspection table" vertex="1">
+          <mxGeometry height="60" width="201" x="17" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-13" edge="1" parent="iuRitHxlWXDX31a7S37E-37" source="iuRitHxlWXDX31a7S37E-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-10" parent="iuRitHxlWXDX31a7S37E-37" style="whiteSpace=wrap;html=1;rounded=0;" value="User reviews and correct the values, symbols, types" vertex="1">
+          <mxGeometry height="60" width="235" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-12" parent="iuRitHxlWXDX31a7S37E-37" style="whiteSpace=wrap;html=1;rounded=0;" value="User will be able to export the ballooned drawing(PDF) and final OCR result." vertex="1">
+          <mxGeometry height="60" width="216" x="9.5" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-57" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="1672.5" width="495.5" x="993" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-53" connectable="0" parent="iuRitHxlWXDX31a7S37E-57" style="group" value="" vertex="1">
+          <mxGeometry height="1632.5" width="485.5" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-21" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-25" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-18" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Image preprocessing&amp;nbsp;&lt;div&gt;- clean&lt;/div&gt;&lt;div&gt;- rotate&amp;nbsp;&lt;br&gt;- crop&lt;/div&gt;&lt;div&gt;- resize/DPI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="235.5" x="122.25" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-23" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-20" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="PaddleOCR&lt;div&gt;- reads text&lt;br&gt;- reads dimension&lt;/div&gt;&lt;div&gt;- reads notes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="5.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-30" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iuRitHxlWXDX31a7S37E-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85.5" y="890" />
+              <mxPoint x="245.5" y="890" />
+              <mxPoint x="245.5" y="1000" />
+            </Array>
+            <mxPoint x="245.5" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-22" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Measurement Results&lt;br&gt;- JSON rows&lt;div&gt;- confidence&lt;/div&gt;&lt;div&gt;- bounding boxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="5.5" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-27" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-24" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="YOLO symbol detector&lt;div&gt;- detects symbols&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="325.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-29" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405.5" y="890" />
+              <mxPoint x="245.5" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-26" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Symbols result&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- JSON rows&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- confidence&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- bounding boxes&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="325.5" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-32" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-28" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Rule Engine / Structuring&lt;div&gt;- combine OCR + symbols&lt;/div&gt;&lt;div&gt;- classify type&lt;/div&gt;&lt;div&gt;- fix common OCR errors&lt;/div&gt;&lt;div&gt;- create inspection rows&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="155.5" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-34" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-31" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="Auto Ballooning&lt;div&gt;- Assign balloon number&lt;/div&gt;&lt;div&gt;- Create Overlays image&lt;/div&gt;&lt;div&gt;- Sort by balloon number&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="155.5" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-50" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-33" parent="iuRitHxlWXDX31a7S37E-53" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Review Builder&lt;/div&gt;&lt;div&gt;- add needs review&lt;/div&gt;&lt;div&gt;- add review priority&lt;/div&gt;&lt;div&gt;- add human correction field&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="145.5" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-45" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iuRitHxlWXDX31a7S37E-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-47" connectable="0" parent="iuRitHxlWXDX31a7S37E-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="FALSE" vertex="1">
+          <mxGeometry relative="1" x="-0.3143" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-48" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;" target="iuRitHxlWXDX31a7S37E-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55.5" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-52" edge="1" parent="iuRitHxlWXDX31a7S37E-53" source="iuRitHxlWXDX31a7S37E-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-49" parent="iuRitHxlWXDX31a7S37E-53" style="whiteSpace=wrap;html=1;rounded=0;" value="Preview by User&lt;div&gt;- ballooned drawing&lt;/div&gt;&lt;div&gt;- editable inspection table&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="210" x="140.5" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-51" parent="iuRitHxlWXDX31a7S37E-53" style="whiteSpace=wrap;html=1;rounded=0;" value="Final Export&lt;div&gt;- inspection_[ job_id ].xlsx&lt;/div&gt;&lt;div&gt;- ballooned_drawing_ [ job_id ].pdf&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="195" x="148" y="1572.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-55" connectable="0" parent="iuRitHxlWXDX31a7S37E-53" style="group" value="" vertex="1">
+          <mxGeometry height="330" width="325" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-19" edge="1" parent="iuRitHxlWXDX31a7S37E-55" source="iuRitHxlWXDX31a7S37E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-17" parent="iuRitHxlWXDX31a7S37E-55" style="rounded=0;whiteSpace=wrap;html=1;" value="Engineering Drawings Uploaded by User" vertex="1">
+          <mxGeometry height="60" width="170" x="155" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-39" edge="1" parent="iuRitHxlWXDX31a7S37E-55" source="iuRitHxlWXDX31a7S37E-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-38" parent="iuRitHxlWXDX31a7S37E-55" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend Upload API&lt;div&gt;- validate file&lt;/div&gt;&lt;div&gt;- save original file&lt;/div&gt;&lt;div&gt;- create job ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="155" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-43" edge="1" parent="iuRitHxlWXDX31a7S37E-55" source="iuRitHxlWXDX31a7S37E-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iuRitHxlWXDX31a7S37E-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60.5" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-46" connectable="0" parent="iuRitHxlWXDX31a7S37E-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="-0.4218" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-41" parent="iuRitHxlWXDX31a7S37E-55" style="rhombus;whiteSpace=wrap;html=1;" value="If pdf" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-42" parent="iuRitHxlWXDX31a7S37E-55" style="whiteSpace=wrap;html=1;" value="PDF Converter&lt;div&gt;- convert PDF into image&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iuRitHxlWXDX31a7S37E-54" parent="iuRitHxlWXDX31a7S37E-57" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=5;fontSize=18;labelBorderColor=none;textShadow=0;" value="BACKEND WORKFLOW" vertex="1">
+          <mxGeometry height="30" width="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,5 @@
+[TYPECHECK]
+generated-members=cv2.*
+
+[MESSAGES CONTROL]
+disable=no-member

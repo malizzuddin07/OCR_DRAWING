@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "candidate": "golden_detector_v8",
+  "status": "rejected_before_full_ocr_gate",
+  "reason": "Candidate V8 did not recover both intended focus dimensions at the protected operational threshold.",
+  "training": {
+    "completed_epochs": 16,
+    "best_epoch": 4,
+    "early_stopped": true,
+    "validation_map50": 0.269,
+    "validation_map50_95": 0.123
+  },
+  "focus_results": {
+    "tiny_dimension_6": "no valid IoU 0.5 detector match",
+    "vertical_4H8": {
+      "detector_confidence": 0.0169,
+      "box_iou": 0.7804,
+      "crop_ocr": "4H8+0.018",
+      "crop_ocr_confidence": 0.961
+    }
+  },
+  "production_model_changed": false,
+  "next_action": "Use protected dimension-only low-confidence proposals gated by high-confidence engineering OCR; keep normal detector thresholds unchanged."
+}

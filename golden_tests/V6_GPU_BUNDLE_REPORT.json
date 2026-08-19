@@ -1,0 +1,15 @@
+﻿{
+    "bundle":  "C:\\Users\\izzuddin\\Desktop\\OCR DRAWING\\golden_tests\\OCR_DETECTOR_GPU_TRAINING_BUNDLE_v6.zip",
+    "sha256":  "D034757BAE94DAEFCECBFD194E3A764CABA9804AD3C817DF095D00A24759980A",
+    "file_count":  617,
+    "approved_drawings":  17,
+    "approved_labels":  966,
+    "hard_examples":  21,
+    "hard_example_tiles":  10,
+    "hard_repeat_tiles":  20,
+    "starting_model":  "candidate_detector_v3_best.pt",
+    "production_model_will_change":  false,
+    "epochs":  60,
+    "patience":  20,
+    "status":  "verified_ready_for_transfer"
+}
