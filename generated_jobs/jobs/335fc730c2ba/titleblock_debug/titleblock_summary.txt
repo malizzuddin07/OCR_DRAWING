@@ -1,7 +1,0 @@
-status: ok
-crop_method: fixed_bottom_left
-crop_source: position
-crop_confidence: 0.6018
-ocr_confidence: 0.8749313712120056
-ocr_variant: upscale_2x_original
-crop_box: (0, 2016, 2478, 3306)

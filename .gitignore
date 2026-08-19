@@ -1,45 +1,34 @@
-﻿# Machine learning models
+﻿# Large model files
 *.pt
-*.pth
 *.onnx
+*.pth
+*.weights
 
 # Large archives
 *.zip
-*.tar.gz
 *.rar
+*.7z
+
+# Large OCR test/model folders
+golden_tests/
+incoming_models/
 
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
+
+# Virtual environments
 venv/
 .venv/
-env/
 
-# Secrets & Config
+# Environment files
 .env
-.env.*
 
-# Generated & Temp files
-runs/
-outputs/
-output/
-temp/
-tmp/
-*.log
-*.cache
+# Large datasets - not required for Gemini code analysis
+dataset/
 
-# Project Datasets, Training Packages & Storage
-golden_tests/detector_dataset_*/
-golden_tests/detector_training_package_*/
-golden_tests/drawings/
-golden_tests/previews/
-private_data/
-webapp/storage/
-incoming_models/*/
-!incoming_models/README.md
+# Generated OCR outputs
+generated_jobs/
 
-# IDE & OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# Waylog / development history
+.waylog/

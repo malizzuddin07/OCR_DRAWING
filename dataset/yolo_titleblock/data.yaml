@@ -1,6 +1,0 @@
-path: C:/Users/izzuddin/Desktop/OCR DRAWING/dataset/yolo_titleblock
-train: images/train
-val: images/val
-
-names:
-  0: title_block

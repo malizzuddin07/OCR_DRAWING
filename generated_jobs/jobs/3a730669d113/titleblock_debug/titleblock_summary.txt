@@ -1,7 +1,0 @@
-status: ok
-crop_method: fixed_bottom_right_medium
-crop_source: position
-crop_confidence: 0.7007
-ocr_confidence: 0.8670145760882985
-ocr_variant: upscale_2x_otsu_sharpen
-crop_box: (3373, 2854, 6615, 4678)
